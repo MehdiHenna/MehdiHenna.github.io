@@ -3,18 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>md-editor</title>
-	<link rel="stylesheet" href="public/css/style.css">
-	<link rel="stylesheet" href="public/js/lib/codemirror.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/js/lib/codemirror.css">
 </head>
 <body>
+	<div class="header">
+		<h1>MD-EDITOR</h1>
+	</div>
 	<!--Ici l'utilisateur rentre son code-->
-	<textarea  id="block-code" cols="30" rows="10"></textarea>
-	<!--prévisualisation-->
-	<div id="translation-result"></div>
+	<div class="container">
+		<textarea  id="block-code" cols="30" rows="10"></textarea>
+		<!--prévisualisation-->
+		<div id="translation-result"></div>
+	</div>
 	<!--javascript script-->
-	<script type="text/javascript" src="public/js/jquery.js"></script>
-	<script src="public/js/lib/codemirror.js"></script>
-	<script src="public/js/mode/markdown/markdown.js"></script>
-	<script src="public/js/bundle.js"></script>
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script src="/js/lib/codemirror.js"></script>
+	<script src="/js/mode/markdown/markdown.js"></script>
+	<script src="/js/bundle.js"></script>
 </body>
 </html>
